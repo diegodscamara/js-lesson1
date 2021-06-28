@@ -13,7 +13,7 @@ var js_name;
 var js_lastname;
 var js_fullname;
 
-function concatena(){
+function concatena() {
     // Data input 
     js_name = document.FormConcatena.f_name.value;
     js_lastname = document.FormConcatena.f_lastname.value;
@@ -32,8 +32,8 @@ var js_n2
 var js_sum
 
 // Data input
-js_n1 = parseInt(window.prompt('Insert the first number:' , 'Type here'));
-js_n2 = parseInt(window.prompt('Insert the second number:' , 'Type here'));
+js_n1 = parseInt(window.prompt('Insert the first number:', 'Type here'));
+js_n2 = parseInt(window.prompt('Insert the second number:', 'Type here'));
 
 // Data processing
 js_sum = parseInt(js_n1) + parseInt(js_n2);
